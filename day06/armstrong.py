@@ -1,4 +1,4 @@
-def reverse(number):
+def armstrong(number):
     sum = 0
  
     while number > 0:
@@ -11,7 +11,9 @@ def reverse(number):
  
 # Example Usage
 input = int(input("Enter the number: "))
-if input==sum:
+result=armstrong(input)
+
+if input==result:
     print(f"{input} is an armstrong number")
 else:
     print(f"{input} is not an armstrong number")
